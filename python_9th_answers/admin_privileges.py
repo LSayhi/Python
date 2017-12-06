@@ -2,7 +2,7 @@
 """
 Created on Tue Dec  5 22:25:02 2017
 
-@author: BD
+@author: LSayhi
 """
 """特权类和管理员类"""
 from user_only import User

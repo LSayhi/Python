@@ -2,7 +2,7 @@
 """
 Created on Tue Dec  5 22:09:32 2017
 
-@author: BD
+@author: LSayhi
 """
 """一个可用于表示餐馆的类"""
 class Restaurant():

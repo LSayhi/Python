@@ -2,7 +2,7 @@
 """
 Created on Tue Dec  5 22:23:22 2017
 
-@author: BD
+@author: LSayhi
 """
 """单独的User类，useronly"""
 class User():

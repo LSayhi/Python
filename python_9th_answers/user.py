@@ -2,7 +2,7 @@
 """
 Created on Tue Dec  5 22:18:26 2017
 
-@author: BD
+@author: LSayhi
 """
 """定义用户类，管理员类，特权类"""
 class Privilege():

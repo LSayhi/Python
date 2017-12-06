@@ -2,7 +2,7 @@
 """
 Created on Sat Dec  2 21:06:34 2017
 
-@author: BD
+@author: LSayhi
 """
 
 def print_models(unprinted_designs,completed_models):
