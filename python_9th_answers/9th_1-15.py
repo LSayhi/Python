@@ -207,7 +207,7 @@ adminuser.privileges.show_privileges()
 #9-9
 '''
 class Car():
-    """"""
+    """汽车类"""
     def __init__(self,make,model,year):
         self.make=make
         self.model=model
@@ -226,7 +226,7 @@ class Car():
     def increment_odometer(self,miles):
         self.odometer_reading+=miles
 class Battery():
-    """"""
+    """电池类"""
     def __init__(self,battery_size=70):
         self.battery_size=battery_size
     def describe_battery(self):
@@ -243,6 +243,7 @@ class Battery():
         if self.battery_size !=85:
             self.battery_size=85
 class ElectricCar(Car):
+    """电动汽车，继承Car"""
     def __init__(self,make,model,year):
         super().__init__(make,model,year)
         self.battery=Battery()
@@ -284,4 +285,35 @@ adminuser.descibe_user()
 adminuser.privileges.show_privileges()
 '''
 #9-13
- 
+'''
+from collections import OrderedDict
+words=OrderedDict()
+words['while']="return 'true' if expresstion in 'while' is satisified"
+words['elif '] ='use after if'
+words['else '] ='use after if or elif'
+words['for  '] ='use to express loop'
+words['#    '] ='use to express notes'
+for name,meaning in words.items():
+    print(' '+name+':\t'+meaning)
+'''
+#9-14
+'''
+from random import randint
+class Die():
+    """骰子类"""
+    def __init__(self,sides=6):
+        self.sides=sides
+    def roll_die(self):
+        print(randint(1,self.sides))
+x=Die(6)
+for i in range(10):
+    x.roll_die()
+y=Die(10)
+for i in range(10):
+    y.roll_die()
+z=Die(20)
+for i in range(10):
+    z.roll_die()
+'''
+#9-15
+"""..."""
