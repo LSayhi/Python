@@ -1,0 +1,3 @@
+In python you can be efficient
+In python you can use list simplely
+In python you can use class to describe things
